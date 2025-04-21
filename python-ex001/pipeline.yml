@@ -9,7 +9,7 @@ metadata:
     pipeline.openshift.io/runtime-version: 3.11-ubi8
     pipeline.openshift.io/type: kubernetes
   name: python-ex001/
-  namespace: python-ex001/
+  namespace: python-ex001
 spec:
   params:
     - default: python-ex
