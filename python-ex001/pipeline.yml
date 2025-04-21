@@ -3,12 +3,12 @@ kind: Pipeline
 metadata:
   labels:
     app.kubernetes.io/instance: python-ex001
-    app.kubernetes.io/name: python-ex001/
+    app.kubernetes.io/name: python-ex001
     operator.tekton.dev/operand-name: openshift-pipelines-addons
     pipeline.openshift.io/runtime: python
     pipeline.openshift.io/runtime-version: 3.11-ubi8
     pipeline.openshift.io/type: kubernetes
-  name: python-ex001/
+  name: python-ex001
   namespace: python-ex001
 spec:
   params:
